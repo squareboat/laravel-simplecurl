@@ -1,6 +1,6 @@
 <?php
 
-namespace PrateekKathal\SimpleCurl;
+namespace SquareBoat\SimpleCurl;
 
 use Illuminate\Pagination\Paginator;
 use Illuminate\Pagination\LengthAwarePaginator;

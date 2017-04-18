@@ -5,17 +5,17 @@ A Laravel package for handling simple CURL requests... **the Laravel way...**
 
 * In terminal, paste this
 ```php
-composer require prateekkathal/laravel-simplecurl 0.*
+composer require squareboat/laravel-simplecurl 0.*
 ```
 
 * Open **app.php** and add this in the **'providers'** array
 ```php
-PrateekKathal\SimpleCurl\SimpleCurlServiceProvider::class,
+SquareBoat\SimpleCurl\SimpleCurlServiceProvider::class,
 ```
 
 * Then add this to the **'aliases'** array
 ```php
-'SimpleCurl' => PrateekKathal\SimpleCurl\SimpleCurlFacade::class,
+'SimpleCurl' => SquareBoat\SimpleCurl\SimpleCurlFacade::class,
 ```
 
 ## Request Functions
@@ -109,7 +109,7 @@ You may also use this function just for making things more **Laravel-like...**
 
 **Add this trait to your Model (say Photo)
 ```php
-use PrateekKathal\SimpleCurl\SimpleCurlTrait;
+use SquareBoat\SimpleCurl\SimpleCurlTrait;
 ```
 
 ** Then add these 2 things in your model**

@@ -1,5 +1,5 @@
 {
-    "name": "prateekkathal/laravel-simplecurl",
+    "name": "squareboat/laravel-simplecurl",
     "description": "A Laravel package for handling simple CURL requests",
     "keywords": ["curl", "php", "laravel"],
     "type": "project",
@@ -18,7 +18,7 @@
             "src/"
         ],
         "psr-4": {
-            "Prateekkathal\\SimpleCurl\\": "src/"
+            "SquareBoat\\SimpleCurl\\": "src/"
         }
     },
     "license": "MIT"

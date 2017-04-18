@@ -1,8 +1,8 @@
 <?php
 
-namespace PrateekKathal\SimpleCurl;
+namespace SquareBoat\SimpleCurl;
 
-use PrateekKathal\SimpleCurl\ResponseTransformer;
+use SquareBoat\SimpleCurl\ResponseTransformer;
 
 class SimpleCurl
 {
@@ -119,7 +119,7 @@ class SimpleCurl
      *
      * @param  array $config
      *
-     * @return PrateekKathal/SimpleCurl/SimpleCurl
+     * @return SquareBoat/SimpleCurl/SimpleCurl
      */
     public function setConfig(array $config = [])
     {
